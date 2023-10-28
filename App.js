@@ -5,6 +5,7 @@ import Signup from './components/SignUpScreen';
 import Login from './components/Login';
 import NewAccount from './components/NewAccount';
 import MainTab from './components/MainTab';
+import MainTabTwo from './components/MainTabTwo';
 import Tab2 from './components/Tab2';
 import Tab3 from './components/Tab3';
 import Tab4 from './components/Tab4';
@@ -21,6 +22,7 @@ export default function App() {
         <Stack.Screen name="Signup" component={Signup} />
         <Stack.Screen name="NewAccount" component={NewAccount} />
         <Stack.Screen name="MainTab" component={MainTab} />
+        <Stack.Screen name="MainTabTwo" component={MainTabTwo} />
         <Stack.Screen name="Tab2" component={Tab2} />
         <Stack.Screen name="Tab3" component={Tab3} />
         <Stack.Screen name="Tab4" component={Tab4} />

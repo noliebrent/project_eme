@@ -6,7 +6,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 import { Feather } from '@expo/vector-icons';
 import { FontAwesome5 } from '@expo/vector-icons';
 
-export default function MainTab({ navigation }) {
+export default function MainTabTwo({ navigation }) {
   return (
       <View style={styles.container}>
         <Text style={styles.HeadingText}>Lost&Found</Text>
